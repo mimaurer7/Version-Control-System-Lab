@@ -1,0 +1,12 @@
+{
+    "project": "VCS Lab",
+    "environment": "development",
+    "security": {
+        "scanOnCommit": true,
+        "requireCodeReview": true
+    },
+    "backup": {
+        "remote": "github",
+        "frequency": "daily"
+    }
+}
